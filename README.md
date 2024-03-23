@@ -1,21 +1,14 @@
-# App.js
+# Soma
 ```js
-console.log("hello Word");
+var soma = require('./soma.js')
+var subtracao = require('./subtracao.js')
+var multiplicacao = require('./multiplicacao.js')
+var divisao = require('./divisao.js')
 
-var n1 = 10
-var n2 = 2
-
-var total = n1 + n2
-
-console.log(total);
-
-if(n1 > n2){
-    console.log(`${n1} é maior que ${n2}`);
-}else if(n1 < n2){
-    console.log(`${n1} é menor que ${n2}`);
-}else{
-    console.log(`${n1} é igual que ${n2}`);
-}
+console.log("Soma: ",soma(10,10));
+console.log("Subtração", subtracao(10,10));
+console.log("Multiplicação", multiplicacao(10,10));
+console.log("Divisão", divisao(10,10));
 ```
 
 # Soma com module.exports
