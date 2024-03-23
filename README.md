@@ -1,4 +1,4 @@
-# Soma
+# Calc
 ```js
 var soma = require('./soma.js')
 var subtracao = require('./subtracao.js')
